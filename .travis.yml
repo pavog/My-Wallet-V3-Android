@@ -1,6 +1,5 @@
-dist: xenial
-language: java
-jdk: openjdk8
+dist: trusty
+language: android
 
 script: 
   - ./scripts/ci_unit_tests.sh
