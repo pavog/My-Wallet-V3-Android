@@ -87,7 +87,6 @@ jobs:
           path: buysell/build/test-results
 
   checks:
-    resource_class: large
     docker:
       - image: circleci/android:api-27-alpha
     steps:
