@@ -13,6 +13,9 @@ android:
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
 
+install:
+  - ./scripts/quick_start.sh
+
 script: 
   - ./scripts/ci_unit_tests.sh
 
